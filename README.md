@@ -1,15 +1,15 @@
 # IoT Sense
 
-This is Arduino software, written for an Arduino Nano 33 IoT with a moisture sensor and a temperature sensor.
+This is Arduino software, written for an Arduino Nano 33 IoT with a moisture sensor, a temperature sensor and a light sensor.
 
-With given IP address, the Arduino connects to the network.
+The Arduino connects to the WiFi network and to a MQTT broker (with given IP address). After connecting, the data is published as topic-value pairs to the broker.
 
-TODO: The sensor data is sent to a server.
 
 Parts:
 - Arduino Nano 33 IoT
 - 9V battery
 - Moisture sensor
 - Temperature sensor
+- Light sensor
 
 Version main
